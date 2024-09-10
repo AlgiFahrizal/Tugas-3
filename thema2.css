@@ -1,0 +1,74 @@
+/* Mengatur margin dan padding semua elemen menjadi nol */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+header {
+  background-color: lightgray;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Kontainer utama yang berisi aside dan section */
+.container {
+  display: flex;
+  margin: 20px;
+}
+
+/* Aside (menu di sebelah kiri) */
+aside {
+  width: 20%;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+aside ul {
+  list-style-type: none;
+}
+
+aside ul li {
+  margin-bottom: 10px;
+}
+
+aside ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+aside ul li a:hover {
+  color: blue;
+}
+
+/* Section (konten di sebelah kanan) */
+section {
+  width: 80%;
+  padding: 20px;
+  background-color: #fff;
+  border-left: 1px solid #ddd;
+}
+
+/* Footer */
+footer {
+  background-color: lightgray;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: blue;
+}
